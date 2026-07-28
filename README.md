@@ -205,8 +205,8 @@ You would still invoke the capture template as usual, however, instead of seeing
 
 This is a much cleaner way of organizing things because you aren't presented with every option all the time. Here's how this looks in practice:
 
-**Opening the capture templates**
-![Opening the capture templates](images/root-capture-templates.png)
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/root-capture-templates.png" alt="Opening the capture templates" style="width:50%; height:auto;">
+
 
 **Opening the sub capture templates**
 ![Opening a sub capture template](images/sub-capture-templates.png)
@@ -397,7 +397,7 @@ Next we need to tell Emacs how to handle LaTeX.
     (setq org-latex-compiler "xelatex")
     (setq org-latex-pdf-process '("xelatex %f"))
     (setq org-latex-listings 't)
-    
+
     (require 'ox-latex)
     (add-to-list 'org-latex-classes
                  '("org-plain-latex"
@@ -412,7 +412,7 @@ Next we need to tell Emacs how to handle LaTeX.
                    ("\\subparagraph{%s}" . "\\subparagraph*{%s}")
                    )
                  )
-    
+
     ;; No, these are not duplicated by accident. Yes, we need both of them.
     (setq org-latex-pdf-process
           '(
@@ -435,7 +435,7 @@ At the top of your org file you will need to add the `#+SETUPFILE:` keyword alon
     #+SUBTITLE: Version 1.0
     #+AUTHOR: James Stoup
     #+CREATION_DATE: <2025-01-01 Wed>
-    
+
     #+OPTIONS: toc:3 H:5
     #+SETUPFILE: ~/org/latex-pdf.setup
 
@@ -674,7 +674,7 @@ Here is the configuration I use for Org Roam. There are two key parts. The first
 
     ;; Set the location of your org-roam directory
     (setq org-roam-directory (concat (getenv "HOME") "/org-roam/"))
-    
+
     ;; use-package configuration for Org Roam
     (use-package org-roam
       :after org
@@ -685,7 +685,7 @@ Here is the configuration I use for Org Roam. There are two key parts. The first
              ("C-c n f" . org-roam-node-find)            ;; find a node (most used command)
              ("C-c n r" . org-roam-node-random)          ;; grab random node
              ("C-c C"   . org-roam-capture)              ;; open the capture template
-    
+
              (:map org-mode-map (
                     ("C-c n a" . org-roam-alias-add)     ;; create an alias
                     ("C-c n i" . org-roam-node-insert)   ;; insert a node
@@ -696,11 +696,11 @@ Here is the configuration I use for Org Roam. There are two key parts. The first
              )
       :config
       (org-roam-setup)
-    
+
       ;; The code for enhancing the org-roam-node-display-template comes from a really wonderful
       ;; configuration from Vidianos Giannitsis on github. You can find his full config here:
       ;; https://github.com/Vidianos-Giannitsis/Dotfiles/blob/master/emacs/.emacs.d/libs/zettelkasten.org
-    
+
       ;; Calculating the backlinks count
       (cl-defmethod org-roam-node-backlinkscount ((node org-roam-node))
         (let* ((count (caar (org-roam-db-query
@@ -710,7 +710,7 @@ Here is the configuration I use for Org Roam. There are two key parts. The first
                                       :and (= type "id")]
                              (org-roam-node-id node)))))
           (format "[%d]" count)))
-    
+
       ;; Uses the previously defined functions to provide much cleaner search results
       (setq org-roam-node-display-template "${backlinkscount:3} ${tags:40}")
       )
@@ -815,20 +815,20 @@ The reason for doing this is that you might have a bunch of ideas that you want 
     :PROPERTIES:
     :ID:       33d36555-ddb0-45f1-8a5c-ccb492b7fff6
     :END:
-    
+
     #+title: SitL Magic Items
     #+filetags: :DnD:SitL:
-    
+
     * Magic Items
     A list of all the magic items we have encountered so far.
-    
+
     ** Chalice of Purification
     :PROPERTIES:
     :ID:       1fa265a9-13cb-4b16-a7b3-c9ddee4e623d
     :END:
     - can cure poison 3 times a day
     - currently in Abel's bag of holding
-    
+
     ** Cloak of Protection
     :PROPERTIES:
     :ID:       e837a3dc-e0a3-4c18-91b5-6f5d34b5e62f
@@ -837,7 +837,7 @@ The reason for doing this is that you might have a bunch of ideas that you want 
     - gives +1 to saving throws
     - looks stylish
     - currently worn by Abel
-    
+
     ** Gloves of Thievery
     :PROPERTIES:
     :ID:       96f9961e-b1ef-4e10-9588-bb415e9127e1
@@ -900,10 +900,10 @@ Here is a sample of some of my capture templates:
              :if-new (file+head "%<%Y%m%d%H%M%S>-${slug}.org" "#+title: ${title}\n")
              :unnarrowed t
              )
-    
+
             ;;; DND Entry Group ;;;
             ("d" "New Magic Item/NPC/Location/Quest")
-    
+
             ;; New Magic Item
             ("di" "New Magic Item"
              plain
@@ -911,7 +911,7 @@ Here is a sample of some of my capture templates:
              :if-new (file+head "dnd/items/%<%Y%m%d%H%M%S>-${slug}.org" "")
              :unnarrowed t
              )
-    
+
             ;; New Session
             ("ds" "New Session"
              plain
@@ -926,7 +926,7 @@ And here is one of the accompanying template files:
 
     #+title: ${title}
     #+filetags: :DnD:magicitem:%^G
-    
+
     * %^{item-name}
     ** Description
     %^{item-description}
@@ -1012,7 +1012,7 @@ Let's take this one at a time. Here is the snippet in question.
 
     ;;; DND Entry Group ;;;
     ("d" "New Magic Item/NPC/Location/Quest")
-    
+
     ;; New Magic Item
     ("di" "New Magic Item"
      plain
@@ -1082,7 +1082,7 @@ This configuration was taken, almost in its entirety, from their github page. I 
 
     (use-package websocket
       :after org-roam)
-    
+
     (use-package org-roam-ui
       :after org-roam ;; or :after org
       ;;         normally we'd recommend hooking orui after org-roam, but since org-roam does not have
@@ -1122,4 +1122,3 @@ Check out their github page for more options, but this should do it for you. As 
 # Farewell
 
 I wrote this guide because I find the Org ecosystem to be incredibly useful and I wanted others to benefit from my knowledge. But as much as I've covered here today, there are many things left to discover. Lots of people are using Org Mode in new and creative ways and I encourage you to seek them out. I hope you found this guide useful. Good luck as you remake your workflows and become ever better organized.
-
