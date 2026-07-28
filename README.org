@@ -140,8 +140,10 @@ You would still invoke the capture template as usual, however, instead of seeing
 
 This is a much cleaner way of organizing things because you aren't presented with every option all the time. Here's how this looks in practice:
 
+*Opening the capture templates*
 ![[file:images/root-capture-templates.png][Opening the capture templates]]
 
+*Opening the sub capture templates*
 ![[file:images/sub-capture-templates.png][Opening a sub capture template]]
 
 ** Interactive Capture Templates
@@ -214,14 +216,19 @@ Let's see how this works in practice. Assuming you have copied the above code in
 
 You have now saved your first book entry.
 
+*Adding a tag*
 ![[file:images/fantasy-tag.png][Adding a tag]]
 
+*Adding the title*
 ![[file:images/book-title.png][Adding the title]]
 
+*Adding the author*
 ![[file:images/book-author.png][Adding the author]]
 
+*Adding the source*
 ![[file:images/book-source.png][Adding the source]]
 
+*Editing the complete book entry*
 ![[file:images/new-book-capture.png][Adding the complete book]]
 
 
@@ -249,20 +256,26 @@ I find this simple export trick so handy, I used it quite frequently when writin
 
 However, to speed things along, I'm going to show you a few snippets of what this document would look like with and without this enhancement.
 
+*Table of Contents, Before*
 ![[file:images/before-pretty-css.png][Before #1]]
 
+*Text, Before*
 ![[file:images/before-example-2.png][Before #2]]
 
 And here is the new, prettier version.
 
+*Table of Contents, After*
 ![[file:images/after-pretty-css.png][After #1]]
 
+*Text, After*
 ![[file:images/after-example-2.png][After #2]]
 
 This can now be printed or saved as a PDF from your web browser for a quick solution.
 
 * Professional Looking PDF Exports
 This is considerably more complex than just throwing a style sheet on your org file, so unless you really need to export documents with specific formatting, this is overkill. But you wouldn't be here if you didn't have a high threshold for pain, let's do this.
+
+For reference, here is the PDF that I produced of [[file:README.pdf][this guide]].
 
 ** Install LaTeX
 The first thing that needs to be done is you need to install LaTeX onto your systems. I'm developing in Fedora so the instructions will be relative to that. However, if you are using Ubuntu or some other flavor of Linux the instructions should be readily available. This tooling is supported pretty much everywhere. If you are lazy like me and don't feel like specifying the handful of packages you need, you can of course install it like so:
@@ -551,6 +564,7 @@ This is my most used command, by far. When executed it will open the mini buffer
 
 Let's find a node. Here is what I see when I search for "silver":
 
+*Find a node*
 ![[file:images/org-roam-find-node.png][Find a node]]
 
 You can see the results narrowed and, more importantly, you can see that we are searching through not just the names, but the tags as well! This is very useful. From there we can select a file, hit return, and have it populate the buffer.
@@ -579,16 +593,20 @@ The capture templates here behave a bit differently than in standard Org Mode. T
 
 If you invoke it via methods 1 or 2, then you need to make sure you insert a link to it in another document somewhere so that you can easily find it again. You can of course always search for it in various ways if you forget about it, but generally speaking, it is best to insert a link to it somewhere immediately upon creation so you don't get orphaned nodes.
 
+*Capture Template part 1*
 ![[file:images/org-roam-capture-temlate-1.png][Capture template #1]]
 
+*Capture Template part 2*
 ![[file:images/org-roam-capture-temlate-2.png][Capture template #2]]
 
+*Capture Template part 3*
 ![[file:images/org-roam-capture-temlate-3.png][Capture template #3]]
 
 ***  ~C-c n l~ - Show backlinks
 
 Finally we get to see the magic of Org Roam! This command will show us every node that links to the current node. As you can see, you get the node along with where specifically it is mentioned. All helpfully put into a list in a new buffer. Selecting any of the backlinks and hitting return will take you to the node in question.
 
+*Backlinks*
 ![[file:images/org-roam-backlinks.png][Backlinks]]
 
 ***  ~C-c n t~ - Add a tag to filetags, NOT a headline
@@ -894,12 +912,16 @@ This configuration was taken, almost in its entirety, from their github page. I 
 Check out their github page for more options, but this should do it for you. As I said, I added a shortcut to call ~org-roam-ui-open~ more easily, but that's it.
 
 *** Awesome Examples
+*Org Roam UI Overview*
 ![[file:images/org-roam-ui-1.png][Org Roam UI #1]]
 
+*Org Roam UI zoomed in*
 ![[file:images/org-roam-ui-2.png][Org Roam UI #2]]
 
+*Org Roam UI Node selected*
 ![[file:images/org-roam-ui-3.png][Org Roam UI #3]]
 
+*Org Roam UI Node details *
 ![[file:images/org-roam-ui-4.png][Org Roam UI #4]]
 
 * Farewell
