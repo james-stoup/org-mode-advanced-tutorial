@@ -205,7 +205,7 @@ You would still invoke the capture template as usual, however, instead of seeing
 
 This is a much cleaner way of organizing things because you aren't presented with every option all the time. Here's how this looks in practice:
 
-<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/root-capture-templates.png" alt="Opening the capture templates" style="width:50%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/root-capture-templates.png" alt="Opening the capture templates" style="width:75%; height:auto;">
 
 
 **Opening the sub capture templates**
