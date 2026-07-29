@@ -594,13 +594,13 @@ The capture templates here behave a bit differently than in standard Org Mode. T
 If you invoke it via methods 1 or 2, then you need to make sure you insert a link to it in another document somewhere so that you can easily find it again. You can of course always search for it in various ways if you forget about it, but generally speaking, it is best to insert a link to it somewhere immediately upon creation so you don't get orphaned nodes.
 
 *Capture Template part 1*
-![[file:images/org-roam-capture-temlate-1.png][Capture template #1]]
+![[file:images/org-roam-capture-template-1.png][Capture template #1]]
 
 *Capture Template part 2*
-![[file:images/org-roam-capture-temlate-2.png][Capture template #2]]
+![[file:images/org-roam-capture-template-2.png][Capture template #2]]
 
 *Capture Template part 3*
-![[file:images/org-roam-capture-temlate-3.png][Capture template #3]]
+![[file:images/org-roam-capture-template-3.png][Capture template #3]]
 
 ***  ~C-c n l~ - Show backlinks
 
