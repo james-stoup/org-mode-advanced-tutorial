@@ -296,19 +296,19 @@ Let's see how this works in practice. Assuming you have copied the above code in
 You have now saved your first book entry.
 
 **Adding a tag**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//fantasy-tag.png" alt="Adding a tag" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/fantasy-tag.png" alt="Adding a tag" style="width:75%; height:auto;">
 
 **Adding the title**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//book-title.png" alt="Adding the title" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/book-title.png" alt="Adding the title" style="width:75%; height:auto;">
 
 **Adding the author**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//book-author.png" alt="Adding the author" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/book-author.png" alt="Adding the author" style="width:75%; height:auto;">
 
 **Adding the source**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//book-source.png" alt="Adding the source" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/book-source.png" alt="Adding the source" style="width:75%; height:auto;">
 
 **Editing the complete book entry**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//new-book-capture.png" alt="Editing the complete book entry" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/new-book-capture.png" alt="Editing the complete book entry" style="width:75%; height:auto;">
 
 
 <a id="orgfe16181"></a>
@@ -349,18 +349,18 @@ I find this simple export trick so handy, I used it quite frequently when writin
 However, to speed things along, I'm going to show you a few snippets of what this document would look like with and without this enhancement.
 
 **Table of Contents, Before**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//before-pretty-css.png" alt="Table of Contents, Before" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/before-pretty-css.png" alt="Table of Contents, Before" style="width:75%; height:auto;">
 
 **Text, Before**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//before-example-2.png" alt="Text, Before" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/before-example-2.png" alt="Text, Before" style="width:75%; height:auto;">
 
 And here is the new, prettier version.
 
 **Table of Contents, After**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//after-pretty-css.png" alt="Table of Contents, After" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/after-pretty-css.png" alt="Table of Contents, After" style="width:75%; height:auto;">
 
 **Text, After**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//after-example-2.png" alt="Text, After" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/after-example-2.png" alt="Text, After" style="width:75%; height:auto;">
 
 This can now be printed or saved as a PDF from your web browser for a quick solution.
 
@@ -736,7 +736,7 @@ This is my most used command, by far. When executed it will open the mini buffer
 Let's find a node. Here is what I see when I search for "silver":
 
 **Find a node**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-find-node.png" alt="Find a node" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-find-node.png" alt="Find a node" style="width:75%; height:auto;">
 
 You can see the results narrowed and, more importantly, you can see that we are searching through not just the names, but the tags as well! This is very useful. From there we can select a file, hit return, and have it populate the buffer.
 
@@ -771,13 +771,13 @@ The capture templates here behave a bit differently than in standard Org Mode. T
 If you invoke it via methods 1 or 2, then you need to make sure you insert a link to it in another document somewhere so that you can easily find it again. You can of course always search for it in various ways if you forget about it, but generally speaking, it is best to insert a link to it somewhere immediately upon creation so you don't get orphaned nodes.
 
 **Capture Template part 1**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-capture-temlate-1.png" alt="Capture Template part 1" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-temlate-1.png" alt="Capture Template part 1" style="width:75%; height:auto;">
 
 **Capture Template part 2**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-capture-temlate-2.png" alt="Capture Template part 2" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-temlate-2.png" alt="Capture Template part 2" style="width:75%; height:auto;">
 
 **Capture Template part 3**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-capture-temlate-3.png" alt="Capture Template part 3" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-temlate-3.png" alt="Capture Template part 3" style="width:75%; height:auto;">
 
 
 <a id="orge63f0e4"></a>
@@ -787,7 +787,7 @@ If you invoke it via methods 1 or 2, then you need to make sure you insert a lin
 Finally we get to see the magic of Org Roam! This command will show us every node that links to the current node. As you can see, you get the node along with where specifically it is mentioned. All helpfully put into a list in a new buffer. Selecting any of the backlinks and hitting return will take you to the node in question.
 
 **Backlinks**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-backlinks.png" alt="Backlinks" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-backlinks.png" alt="Backlinks" style="width:75%; height:auto;">
 
 
 <a id="org65e9ec8"></a>
@@ -1105,16 +1105,16 @@ Check out their github page for more options, but this should do it for you. As 
 ### Awesome Examples
 
 **Org Roam UI Overview**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-ui-1.png" alt="Org Roam UI Overview" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-ui-1.png" alt="Org Roam UI Overview" style="width:75%; height:auto;">
 
 **Org Roam UI zoomed in**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-ui-2.png" alt="Org Roam UI zoomed in" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-ui-2.png" alt="Org Roam UI zoomed in" style="width:75%; height:auto;">
 
 **Org Roam UI Node selected**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-ui-3.png" alt="Org Roam UI Node selected" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-ui-3.png" alt="Org Roam UI Node selected" style="width:75%; height:auto;">
 
 **Org Roam UI Node details**
-<img src="https://github.com/james-stoup/org-ode-advanced-tutorial/blob/main/images//org-roam-ui-4.png" alt="Org Roam UI Node details " style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-ui-4.png" alt="Org Roam UI Node details " style="width:75%; height:auto;">
 
 
 <a id="org982dcbf"></a>
