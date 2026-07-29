@@ -781,15 +781,15 @@ If you invoke it via methods 1 or 2, then you need to make sure you insert a lin
 
 **Capture Template part 1**
 
-<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-temlate-1.png" alt="Capture Template part 1" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-template-1.png" alt="Capture Template part 1" style="width:75%; height:auto;">
 
 **Capture Template part 2**
 
-<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-temlate-2.png" alt="Capture Template part 2" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-template-2.png" alt="Capture Template part 2" style="width:75%; height:auto;">
 
 **Capture Template part 3**
 
-<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-temlate-3.png" alt="Capture Template part 3" style="width:75%; height:auto;">
+<img src="https://github.com/james-stoup/org-mode-advanced-tutorial/blob/main/images/org-roam-capture-template-3.png" alt="Capture Template part 3" style="width:75%; height:auto;">
 
 
 <a id="orge63f0e4"></a>
